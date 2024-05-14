@@ -1,0 +1,132 @@
+<link>
+.inline-block{
+display:inline-block;
+vertical-align: top;
+}
+.logo{
+    background:#FFF9F1;
+    width:23%;
+    padding:1%;
+    text-align:center;
+}
+.nav{
+    width:73%;
+    padding:1%;
+    background-color: #A39F7A;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.ul{
+    width:50%;
+    margin-left:auto;
+    height: fit-content;
+    font-size: 20pt;
+    font-family: serif;
+
+}
+.heroImg{
+    height:600px;
+    padding:25px;
+}
+.content{
+    width: 400px;
+    margin:0 auto;
+    height: fit-content;
+    font-size: 20pt;
+    font-family: serif;
+
+}
+.footer{
+    background:#A39F7A;
+    height:440;
+    padding:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ul{
+    inline-block:
+    vertical-align;top:auto;
+    padding:0%;
+}
+<!--My UX Skills Section Coded Using CSS Flex-->
+
+    
+   .flex-container
+        .mySkills{
+         display: flex;
+        width:33%;
+        margin:auto;
+        padding:auto;
+        }
+
+        <!--My work section constructed using CSS grid-->
+       
+        .myWork{
+        display:flex;
+        width:33%;
+        margin:auto;
+        padding:auto;
+        }
+         .workGrid{
+        display:grid;
+         width:33%;
+        margin:auto;
+        padding:auto;
+         <div class="grid-container">
+         <div>
+            .grid-container{
+               margin:0px 5%;
+               width: 340px;
+                display:grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                 grid-template-areas: 
+                 "cuspRedesign" "goals" "phase1""phase2"
+                  "phase3" "phase4" "phase5" "finalThoughts"
+            }
+        .item1{
+                grid-area:cuspRedesign;
+            }
+            .item2{
+                grid-area:goals;
+            }
+            .item3{
+                grid-area:phase1;
+            }
+            .item4{
+                grid-area: area phase2;
+            }
+            .item5{
+                grid-area:phase3;
+            }
+            .item6{
+                grid-area:phase4;
+            }
+            .item7{
+                grid-area:phase5;
+            }
+            .item8{
+                grid-area:finalThoughts;
+            }
+        }        
+    </div>
+{
+    @media only screen and (max-width:600px){
+        .gridContainer{
+              margin:0px 5%;
+               width: 100%;
+                display:grid;
+                grid-template-rows:  340px 340px 340px 340px 340px 340px 340px 340px;
+                grid-template-columns: 1fr;
+                grid-template-areas: "cuspRedesign" "goals" "phase1"
+                "phase2" "phase3" "phase4" "phase5" "finalThoughts"
+         }
+
+}
+}
